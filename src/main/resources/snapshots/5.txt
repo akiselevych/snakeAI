@@ -1,0 +1,42 @@
+Board:
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+☼      ╔═╗ ☻  ☼
+☼     ╔╝ ║    ☼
+☼ ╔╗  ║☺╔╝╔══╗☼
+☼ ║╚══╝╔╝ ║  ║☼
+☼ ╚╗╔╗╔╝╔═╝  ║☼
+☼╔═╝║║╚╗║ ╔╗╔╝☼
+☼║  ║║ ║╚═╝║╚╗☼
+☼║╔═╝║╓▼   ║ ║☼
+☼║╚╗ ║║╔╗  ║ ║☼
+☼║╔╝ ║║║║╔═╝╔╝☼
+☼║╚╗ ║╚╝╚╝ ╔╝ ☼
+☼╚═╝ ╚════╗║  ☼
+☼         ╚╝  ☼
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+
+Apple at: [[7,11]]
+Stones at: [[11,13]]
+Head at: [7,6]
+Current direction: DOWN
+Move counter: 166
+--- Loop ---
+,  Snake size: 108,  Around apple area: 1,  Enough place around apple: false,  Shortest path to apple: 1,  Apple is available: false,  Tail is available: true,  Tail near apple: false,  Around stone area: 8
+Longest direction: RIGHT
+Internal snake size: 108
+
+
+Exception in thread "Thread-0" java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays.copyOf(Arrays.java:3481)
+	at java.base/java.util.ArrayList.grow(ArrayList.java:237)
+	at java.base/java.util.ArrayList.grow(ArrayList.java:244)
+	at java.base/java.util.ArrayList.add(ArrayList.java:454)
+	at java.base/java.util.ArrayList.add(ArrayList.java:467)
+	at jon.com.ua.client.Dijkstra.getShortestPathWithoutSource(Dijkstra.java:238)
+	at jon.com.ua.client.Dijkstra.isPointsNear(Dijkstra.java:192)
+	at jon.com.ua.client.Dijkstra.getDirection(Dijkstra.java:93)
+	at jon.com.ua.client.YourSolver.get(YourSolver.java:62)
+	at jon.com.ua.view.View.setSnakeDirection(View.java:252)
+	at jon.com.ua.view.View.lambda$new$0(View.java:175)
+	at jon.com.ua.view.View$$Lambda$141/0x0000000800c84788.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:833)

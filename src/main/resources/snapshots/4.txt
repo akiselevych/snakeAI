@@ -1,0 +1,25 @@
+Board:
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+☼╔═══╗╔╗╔═► ☻☺☼
+☼║ ╔╗╚╝║║     ☼
+☼╚╗║╚═╗║╚╗   ╓☼
+☼ ║╚╗ ║╚═╝ ╔═╝☼
+☼╔╝ ║╔╝╔═══╝  ☼
+☼║╔═╝║ ╚╗╔╗   ☼
+☼║║╔═╝╔╗║║╚═╗ ☼
+☼║║╚══╝╚╝╚╗╔╝ ☼
+☼║╚╗╔═════╝║  ☼
+☼║╔╝╚══╗╔═╗╚═╗☼
+☼║╚════╝╚╗╚═╗║☼
+☼╚══════╗║  ╚╝☼
+☼       ╚╝    ☼
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+
+Apple at: [[13,13]]
+Stones at: [[12,13]]
+Head at: [10,13]
+Current direction: RIGHT
+Move counter: 183
+,  Snake size: 130,  New head area: 12,  Around apple area: 12,  Enough place around apple: false,  Shortest path to apple: 6,  Apple is available: true,  Tail is available: true,  Tail near apple: true,  Around stone area: 12
+Apple direction: DOWN
+Internal snake size: 130

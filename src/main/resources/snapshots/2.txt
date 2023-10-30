@@ -1,0 +1,22 @@
+Board:
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+☼╔════╗╔═════╗☼
+☼║  ╔═╝║╔══╗╔╝☼
+☼║  ║  ║║╔═╝╚╗☼
+☼║  ║  ║║║╔╗ ║☼
+☼║  ║  ║║║║╙ ║☼
+☼║  ║  ║║║║  ║☼
+☼║  ╚╗ ║║╚╝  ║☼
+☼║   ║ ║║    ║☼
+☼║  ☺║╔╝║    ║☼
+☼║   ║╚═╝    ║☼
+☼║   ╚════►  ║☼
+☼║     ☻     ║☼
+☼╚═══════════╝☼
+☼☼☼☼☼☼☼☼☼☼☼☼☼☼☼
+
+Current direction: RIGHT
+Move counter: 421
+--- Loop ---
+,  Snake size: 104,  Area direction: DOWN,  New head area: 54,  Around apple area: 55,  Around stone area: 55
+Apple direction: DOWN
